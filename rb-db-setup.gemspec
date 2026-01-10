@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = "A Laravel-style database infrastructure scaffolder for Ruby."
   spec.description   = "Instantly adds hardened Sequel migrations and modular seeders to any Ruby project."
-  spec.homepage      = "https://github.com/your-username/rb-db-setup"
+  spec.homepage      = "https://github.com/LanceDanielG/rb-db-scaffold-setup"
   spec.license       = "MIT"
 
   spec.metadata["allowed_push_host"] = "https://rubygems.org"

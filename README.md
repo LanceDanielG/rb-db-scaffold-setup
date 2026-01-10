@@ -41,7 +41,7 @@ ruby setup_db_tools.rb
 ### GitHub One-Liner (Fastest)
 Run the latest version directly from GitHub without downloading anything:
 ```bash
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/your-username/rb-db-setup/main/setup_db_tools.rb)"
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/LanceDanielG/rb-db-scaffold-setup/main/setup_db_tools.rb)"
 ```
 
 ## Global Local Setup (Command Anywhere)
@@ -108,6 +108,19 @@ The generated infrastructure requires:
 - `sequel`
 - `pg` (or your preferred database driver)
 - `dotenv` (optional but recommended)
+
+## Automated Publishing with GitHub Actions 🤖
+
+I've included a GitHub Action to automate the publishing of this gem to RubyGems.org.
+
+### How to set it up:
+1. **Get your API Key**: Go to [RubyGems.org Settings](https://rubygems.org/profile/edit) and generate a new API key with "Push rubygem" permissions.
+2. **Add to GitHub Secrets**: 
+   - Go to your repository on GitHub.
+   - Click **Settings** > **Secrets and variables** > **Actions**.
+   - Create a **New repository secret** named `RUBYGEMS_API_KEY` and paste your key.
+3. **Trigger a Release**:
+   - Every time you push a **tag** starting with `v` (e.g., `git tag v0.1.0 && git push origin v0.1.0`), GitHub will automatically build and publish the gem for you!
 
 ## License
 
