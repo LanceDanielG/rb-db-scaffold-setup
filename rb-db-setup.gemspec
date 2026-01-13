@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.homepage      = "https://github.com/LanceDanielG/rb-db-scaffold-setup"
   spec.license       = "MIT"
 
-  spec.metadata["allowed_push_host"] = "https://rubygems.org"
+  # spec.metadata["allowed_push_host"] = "https://rubygems.org"
 
   spec.metadata["homepage_uri"]    = spec.homepage
   spec.metadata["source_code_uri"] = "https://github.com/LanceDanielG/rb-db-scaffold-setup"
