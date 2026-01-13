@@ -13,6 +13,11 @@ Gem::Specification.new do |spec|
 
   spec.metadata["allowed_push_host"] = "https://rubygems.org"
 
+  spec.metadata["homepage_uri"]    = spec.homepage
+  spec.metadata["source_code_uri"] = "https://github.com/LanceDanielG/rb-db-scaffold-setup"
+  spec.metadata["changelog_uri"]   = "https://github.com/LanceDanielG/rb-db-scaffold-setup/blob/main/CHANGELOG.md"
+  spec.metadata["bug_tracker_uri"] = "https://github.com/LanceDanielG/rb-db-scaffold-setup/issues"
+
   spec.files         = Dir.glob("{bin,lib}/**/*") + ["README.md"]
   spec.bindir        = "bin"
   spec.executables   = ["rb-db-setup"]
