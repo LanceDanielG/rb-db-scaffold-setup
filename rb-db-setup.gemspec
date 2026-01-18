@@ -20,6 +20,8 @@ Gem::Specification.new do |spec|
   spec.metadata["documentation_uri"] = "https://github.com/LanceDanielG/rb-db-scaffold-setup#readme"
 
   spec.files         = Dir.glob("{bin,lib}/**/*") + ["README.md"]
+  spec.extra_rdoc_files = ["README.md"]
+  spec.rdoc_options = ["--main", "README.md"]
   spec.bindir        = "bin"
   spec.executables   = ["rb-db-setup"]
   spec.require_paths = ["lib"]
